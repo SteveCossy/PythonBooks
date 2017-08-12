@@ -1,0 +1,12 @@
+Create Github account: https://guides.github.com/activities/hello-world/
+Put some files into it.
+Enable ssh access on the Pi:
+  https://help.github.com/articles/connecting-to-github-with-ssh/
+  https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+  https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+  
+Commands on the Pi:
+  ssh-keygen -t rsa -b 4096 -C "steve@rata.co.nz"
+  cat .ssh/id_rsa.pub
+  git clone git@github.com:SteveCossy/IOT.git
+  find
